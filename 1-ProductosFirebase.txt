@@ -1,0 +1,43 @@
+Proyecto: ProductosFirebase
+
+* NAVEGACION
+@react-navigation/native
+@react-navigation/native-stack
+react-native-screens
+
+
+ELEMENTS
+@rneui/themed @rneui/base
+react-native-vector-icons
+
+FIREBASE
+firebase (metro.config)
+
+* NavigationDrawer:
+
+@react-nagivation/drawer
+react-native-reanimated
+react-native-safe-area-context
+react-native-gesture-handler
+
+babel.config.js
+
+agregar:
+plugins:[
+      [
+        "module-resolver",
+        {
+          extensions:['.tsx','.ts','.js','.json']
+        },
+      ],
+      'react-native-reanimated/plugin'
+    ]
+
+import "react-mative-gesture-handler";
+
+expo update
+expo start --clear
+
+
+
+
